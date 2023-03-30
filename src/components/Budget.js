@@ -8,7 +8,7 @@ const Budget = () => {
         //Budget upper limit = 20000
         if (newBudget > 20000)
         {
-            alert("The Budget cannot exceed £20000");
+            alert("The Budget cannot exceed "+currency+"20000");
             return;
         }
 
